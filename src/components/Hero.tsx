@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
             <div className="ornate-frame !p-2 arch-top">
               <div className="overflow-hidden arch-top">
                 <img 
-                  src="/images/polaczyk.png" 
+                  src="images/polaczyk.png" 
                   alt="Julia Polaczyk - English Tutor" 
                   className="w-full h-[600px] object-cover sepia-img"
                 />
