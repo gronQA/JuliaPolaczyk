@@ -57,7 +57,7 @@
 
   .ornate-divider::before {
     content: "✶";
-    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-background px-3 text-accent text-xs;
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 px-3 text-accent text-xs;
   }
 
   .drop-cap::first-letter {
