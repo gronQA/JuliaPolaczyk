@@ -20,9 +20,9 @@ const Hero: React.FC = () => {
               <span className="font-display text-xs uppercase tracking-[0.3em] text-accent">
                 Rozdział I — Przebudzenie Językowe
               </span>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[1.1] text-foreground">
+              <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[1.1] text-foreground italic font-light">
                 Opanuj Język <br />
-                <span className="italic font-light">z Klasą i Pasją</span>
+                z Klasą i Pasją
               </h1>
             </div>
 
