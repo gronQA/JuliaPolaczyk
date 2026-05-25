@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const [name, setName] = useState('');
@@ -116,9 +115,9 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-col items-center md:items-end gap-2">
              <div className="flex gap-8">
-                <Link to="/polityka-prywatnosci" className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors">
+                <a href={`${import.meta.env.BASE_URL}polityka-prywatnosci`} className="text-[10px] uppercase tracking-widest text-muted-foreground hover:text-accent transition-colors">
                   Polityka Prywatności
-                </Link>
+                </a>
              </div>
              <a 
                href="https://gronqa.pl" 
